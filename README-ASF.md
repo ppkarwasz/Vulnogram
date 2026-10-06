@@ -17,10 +17,10 @@ Vulnogram app on the host.
 
 ### One-time setup
 
-1. Install Node dependencies:
+1. Install the Node dependencies pinned in `package-lock.json`:
 
    ```shell
-   npm install
+   npm ci
    ```
 
 2. Copy `example-asf.env` to `.env`, then open `.env` and uncomment the
